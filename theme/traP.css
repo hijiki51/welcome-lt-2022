@@ -30,6 +30,10 @@ section.title {
     background-image: url(theme/bg_image/title.png);
 }
 
+section.subtitle {
+    background-image: url(theme/bg_image/subtitle.png);
+}
+
 section.slides {
     background-image: url(theme/bg_image/slide.png);
 }
@@ -53,6 +57,13 @@ section.title h3 {
     margin: 4rem 12rem 0 12rem;
     text-align: right;
     font-size: 2rem
+}
+
+/* subtitle */
+
+section.subtitle h1, section.subtitle h2 {
+    text-align: center;
+    margin-top: 18.6rem
 }
 
 /* user */
